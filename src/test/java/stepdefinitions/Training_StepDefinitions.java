@@ -181,7 +181,8 @@ public class Training_StepDefinitions {
 	        System.out.println("Training session created successfully");
 	    } else {
 	        System.out.println("Creation of training session - failed");
-	    }	    
+	    }	
+	    System.out.println("test sample");
 	}	
 
 	@Then("^I validate created training session \"([^\"]*)\", \"([^\"]*)\" and \"([^\"]*)\" details$")
