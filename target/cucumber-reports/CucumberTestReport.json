@@ -1,21 +1,21 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 31,
-        "name": "to verify admin to create training session",
+        "line": 79,
+        "name": "to verify admin to add career, promotion and add a session in career and promotions link using scenario outline",
         "description": "",
-        "id": "this-feature-is-to-automate-training,-careers-and-promotions-page;to-verify-admin-to-create-training-session;;2",
+        "id": "this-feature-is-to-automate-careers-and-promotions-page;to-verify-admin-to-add-career,-promotion-and-add-a-session-in-career-and-promotions-link-using-scenario-outline;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 13706378000,
+              "duration": 15836923500,
               "status": "passed"
             },
-            "line": 8,
+            "line": 43,
             "name": "I open the browser and enter the url \"http://elearningm1.upskills.in/\"",
             "match": {
               "arguments": [
@@ -30,10 +30,10 @@
           },
           {
             "result": {
-              "duration": 254562800,
+              "duration": 634934200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 44,
             "name": "I enter username \"admin\" and password \"admin@123\" field",
             "match": {
               "arguments": [
@@ -56,10 +56,10 @@
           },
           {
             "result": {
-              "duration": 5262013000,
+              "duration": 5885653500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 45,
             "name": "I Click Login button",
             "match": {
               "location": "Training_StepDefinitions.i_Click_Login_button()"
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 35698400,
+              "duration": 102971600,
               "status": "passed"
             },
-            "line": 11,
+            "line": 46,
             "name": "I validate login is successful",
             "match": {
               "location": "Training_StepDefinitions.i_validate_login_is_successful()"
@@ -80,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 716997300,
+              "duration": 1858096500,
               "status": "passed"
             },
-            "line": 12,
+            "line": 47,
             "name": "I click the Administration tab",
             "match": {
               "location": "Training_StepDefinitions.i_click_the_Administration_tab()"
@@ -92,10 +92,172 @@
           },
           {
             "result": {
-              "duration": 4930917400,
+              "duration": 3612441800,
               "status": "passed"
             },
-            "line": 13,
+            "line": 48,
+            "name": "I click on Careers and promotions link",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Careers_and_promotions_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2405906300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on careers icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_careers_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300133900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on Add icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184855900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter value in Name \"QA\" textbox in Careers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA",
+                  "offset": 23
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_value_in_Name_textbox_in_Careers(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1884551800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click on Add button for Careers",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_button_for_Careers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82286100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate success message",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1884413100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I navigate back to Careers and promotions link",
+            "match": {
+              "location": "Training_StepDefinitions.i_navigate_back_to_Careers_and_promotions_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135373400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on Promotions icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Promotions_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1081377500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click on Add icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 346057100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I enter value in Name \"QA for tester\" textbox in Promotions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA for tester",
+                  "offset": 23
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_value_in_Name_textbox_in_Promotions(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029880600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click on Add button for Promotions",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_button_for_Promotions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51235600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I validate success message",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5337556100,
+              "status": "passed"
+            },
+            "line": 60,
             "name": "I click on Add a training session link",
             "match": {
               "location": "Training_StepDefinitions.i_click_on_Add_a_training_session_link()"
@@ -104,10 +266,10 @@
           },
           {
             "result": {
-              "duration": 5968800,
+              "duration": 13659100,
               "status": "passed"
             },
-            "line": 14,
+            "line": 61,
             "name": "I validate Add a training session page title",
             "match": {
               "location": "Training_StepDefinitions.i_validate_Add_a_training_session_page_title()"
@@ -116,15 +278,15 @@
           },
           {
             "result": {
-              "duration": 184943200,
+              "duration": 484255700,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Enter session name \"Selenium1259\" in Session name textbox",
+            "line": 62,
+            "name": "Enter session name \"Selenium\" in Session name textbox",
             "match": {
               "arguments": [
                 {
-                  "val": "Selenium1259",
+                  "val": "Selenium",
                   "offset": 20
                 }
               ],
@@ -137,10 +299,10 @@
           },
           {
             "result": {
-              "duration": 9310830400,
+              "duration": 9547406300,
               "status": "passed"
             },
-            "line": 16,
+            "line": 63,
             "name": "Enter coach name \"man\" in Coach name textbox",
             "match": {
               "arguments": [
@@ -158,10 +320,10 @@
           },
           {
             "result": {
-              "duration": 2305146800,
+              "duration": 2921495800,
               "status": "passed"
             },
-            "line": 17,
+            "line": 64,
             "name": "Click on Next step button",
             "match": {
               "location": "Training_StepDefinitions.click_on_Next_step_button()"
@@ -170,10 +332,10 @@
           },
           {
             "result": {
-              "duration": 6455600,
+              "duration": 21078400,
               "status": "passed"
             },
-            "line": 18,
+            "line": 65,
             "name": "I validate Add Courses page title",
             "match": {
               "location": "Training_StepDefinitions.i_validate_Add_Courses_page_title()"
@@ -182,15 +344,15 @@
           },
           {
             "result": {
-              "duration": 110406500,
+              "duration": 270518500,
               "status": "passed"
             },
-            "line": 19,
-            "name": "select course name \"AWS (AWS)\" in course list window",
+            "line": 66,
+            "name": "select course name \"coursee22 (SELENIUM778)\" in course list window",
             "match": {
               "arguments": [
                 {
-                  "val": "AWS (AWS)",
+                  "val": "coursee22 (SELENIUM778)",
                   "offset": 20
                 }
               ],
@@ -203,10 +365,10 @@
           },
           {
             "result": {
-              "duration": 140352300,
+              "duration": 220787400,
               "status": "passed"
             },
-            "line": 20,
+            "line": 67,
             "name": "Click on \u003e step button",
             "match": {
               "location": "Training_StepDefinitions.click_on_step_button()"
@@ -215,15 +377,15 @@
           },
           {
             "result": {
-              "duration": 81591500,
+              "duration": 179617200,
               "status": "passed"
             },
-            "line": 21,
-            "name": "I validate added course \"AWS (AWS)\" list",
+            "line": 68,
+            "name": "I validate added course \"coursee22 (SELENIUM778)\" list",
             "match": {
               "arguments": [
                 {
-                  "val": "AWS (AWS)",
+                  "val": "coursee22 (SELENIUM778)",
                   "offset": 25
                 }
               ],
@@ -236,10 +398,10 @@
           },
           {
             "result": {
-              "duration": 1550262800,
+              "duration": 2181122200,
               "status": "passed"
             },
-            "line": 22,
+            "line": 69,
             "name": "click on Next step button in course list",
             "match": {
               "location": "Training_StepDefinitions.click_on_Next_step_button_in_course_list()"
@@ -248,10 +410,10 @@
           },
           {
             "result": {
-              "duration": 12189600,
+              "duration": 22687400,
               "status": "passed"
             },
-            "line": 23,
+            "line": 70,
             "name": "I validate Subscribe users to this session page title",
             "match": {
               "location": "Training_StepDefinitions.i_validate_Subscribe_users_to_this_session_page_title()"
@@ -260,10 +422,10 @@
           },
           {
             "result": {
-              "duration": 107431000,
+              "duration": 326017700,
               "status": "passed"
             },
-            "line": 24,
+            "line": 71,
             "name": "I enter student name \"Sunil\" in Portal users list",
             "match": {
               "arguments": [
@@ -281,10 +443,10 @@
           },
           {
             "result": {
-              "duration": 5095852400,
+              "duration": 6226780200,
               "status": "passed"
             },
-            "line": 25,
+            "line": 72,
             "name": "click on student name \"Sunil\" link",
             "match": {
               "arguments": [
@@ -302,10 +464,10 @@
           },
           {
             "result": {
-              "duration": 3380586500,
+              "duration": 4265194100,
               "status": "passed"
             },
-            "line": 26,
+            "line": 73,
             "name": "click on Finish session creation button",
             "match": {
               "location": "Training_StepDefinitions.click_on_Finish_session_creation_button()"
@@ -314,24 +476,24 @@
           },
           {
             "result": {
-              "duration": 99396000,
+              "duration": 353382800,
               "status": "passed"
             },
-            "line": 27,
-            "name": "I validate created training session \"Selenium1259\", \"AWS (AWS)\" and \"Sunil\" details",
+            "line": 74,
+            "name": "I validate created training session \"Selenium\", \"coursee22 (SELENIUM778)\" and \"Sunil\" details",
             "match": {
               "arguments": [
                 {
-                  "val": "Selenium1259",
+                  "val": "Selenium",
                   "offset": 37
                 },
                 {
-                  "val": "AWS (AWS)",
-                  "offset": 53
+                  "val": "coursee22 (SELENIUM778)",
+                  "offset": 49
                 },
                 {
                   "val": "Sunil",
-                  "offset": 69
+                  "offset": 79
                 }
               ],
               "location": "Training_StepDefinitions.i_validate_created_training_session_and_details(String,String,String)"
@@ -342,29 +504,568 @@
               5
             ],
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265374600,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I finally close the browser",
+            "match": {
+              "location": "Training_StepDefinitions.i_finally_close_the_browser()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 6,
-            "name": "@CreateTraining"
+            "line": 41,
+            "name": "@CreateCareersPromotionsScenarioOutline"
           },
           {
-            "line": 2,
-            "name": "@Training"
+            "line": 1,
+            "name": "@Careers"
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "to verify admin to add career, promotion and add a session in career and promotions link using scenario outline",
+        "description": "",
+        "id": "this-feature-is-to-automate-careers-and-promotions-page;to-verify-admin-to-add-career,-promotion-and-add-a-session-in-career-and-promotions-link-using-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12153957900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I open the browser and enter the url \"http://elearningm1.upskills.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/",
+                  "offset": 38
+                }
+              ],
+              "location": "Training_StepDefinitions.i_open_the_browser_and_enter_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 375638900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter username \"admin\" and password \"admin@123\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin@123",
+                  "offset": 39
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_username_and_password_field(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5078688000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I Click Login button",
+            "match": {
+              "location": "Training_StepDefinitions.i_Click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101588900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I validate login is successful",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_login_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1278638000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click the Administration tab",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_the_Administration_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3834346100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on Careers and promotions link",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Careers_and_promotions_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2272416000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on careers icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_careers_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1405789800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on Add icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321195500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter value in Name \"QA\" textbox in Careers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA",
+                  "offset": 23
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_value_in_Name_textbox_in_Careers(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500929600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click on Add button for Careers",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_button_for_Careers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57202100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate success message",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1450354600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I navigate back to Careers and promotions link",
+            "match": {
+              "location": "Training_StepDefinitions.i_navigate_back_to_Careers_and_promotions_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1171897700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on Promotions icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Promotions_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1295044800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click on Add icon",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419346900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I enter value in Name \"QA for tester\" textbox in Promotions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA for tester",
+                  "offset": 23
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_value_in_Name_textbox_in_Promotions(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1964438300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click on Add button for Promotions",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_button_for_Promotions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65652100,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I validate success message",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5311470000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on Add a training session link",
+            "match": {
+              "location": "Training_StepDefinitions.i_click_on_Add_a_training_session_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21384300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I validate Add a training session page title",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_Add_a_training_session_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 600649000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Enter session name \"Selenium\" in Session name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 20
+                }
+              ],
+              "location": "Training_StepDefinitions.enter_session_name_in_Session_name_textbox(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9363441900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Enter coach name \"man\" in Coach name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "man",
+                  "offset": 18
+                }
+              ],
+              "location": "Training_StepDefinitions.enter_coach_name_in_Coach_name_textbox(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2720880600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Click on Next step button",
+            "match": {
+              "location": "Training_StepDefinitions.click_on_Next_step_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14162000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I validate Add Courses page title",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_Add_Courses_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189196200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "select course name \"cour8022 (SELEN099)\" in course list window",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cour8022 (SELEN099)",
+                  "offset": 20
+                }
+              ],
+              "location": "Training_StepDefinitions.select_course_name_in_course_list_window(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324163200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Click on \u003e step button",
+            "match": {
+              "location": "Training_StepDefinitions.click_on_step_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159184300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I validate added course \"cour8022 (SELEN099)\" list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cour8022 (SELEN099)",
+                  "offset": 25
+                }
+              ],
+              "location": "Training_StepDefinitions.i_validate_added_course_list(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2087605700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "click on Next step button in course list",
+            "match": {
+              "location": "Training_StepDefinitions.click_on_Next_step_button_in_course_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16355700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate Subscribe users to this session page title",
+            "match": {
+              "location": "Training_StepDefinitions.i_validate_Subscribe_users_to_this_session_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249003100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I enter student name \"Sunil\" in Portal users list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunil",
+                  "offset": 22
+                }
+              ],
+              "location": "Training_StepDefinitions.i_enter_student_name_in_Portal_users_list(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6229987600,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "click on student name \"Sunil\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunil",
+                  "offset": 23
+                }
+              ],
+              "location": "Training_StepDefinitions.click_on_student_name_link(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4148132000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "click on Finish session creation button",
+            "match": {
+              "location": "Training_StepDefinitions.click_on_Finish_session_creation_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 347656400,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I validate created training session \"Selenium\", \"cour8022 (SELEN099)\" and \"Sunil\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 37
+                },
+                {
+                  "val": "cour8022 (SELEN099)",
+                  "offset": 49
+                },
+                {
+                  "val": "Sunil",
+                  "offset": 75
+                }
+              ],
+              "location": "Training_StepDefinitions.i_validate_created_training_session_and_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184167900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I finally close the browser",
+            "match": {
+              "location": "Training_StepDefinitions.i_finally_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@CreateCareersPromotionsScenarioOutline"
+          },
+          {
+            "line": 1,
+            "name": "@Careers"
           }
         ]
       }
     ],
-    "name": "This feature is to automate training, Careers and promotions page",
-    "description": "I want to create and verify training session",
-    "id": "this-feature-is-to-automate-training,-careers-and-promotions-page",
+    "name": "This feature is to automate Careers and promotions page",
+    "description": "I want to create and verify Careers and promotions",
+    "id": "this-feature-is-to-automate-careers-and-promotions-page",
     "keyword": "Feature",
-    "uri": "Training.feature",
+    "uri": "Careers.feature",
     "tags": [
       {
-        "line": 2,
-        "name": "@Training"
+        "line": 1,
+        "name": "@Careers"
       }
     ]
   }

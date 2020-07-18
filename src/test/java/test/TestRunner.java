@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="feature_files", glue= "stepdefinitions",
+@CucumberOptions(features="feature_files", glue= "stepdefinitions",tags= {"@CreateCareersPromotionsScenarioOutline"},
 format=
 {"pretty",
 "html:target/cucumber-reports/cucumber-pretty",
